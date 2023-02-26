@@ -1,0 +1,16 @@
+En este ejemplo, se define una clase NearestNeighbors que tiene dos propiedades _data y _labels para almacenar los datos y las etiquetas, respectivamente.
+La función add_data se utiliza para añadir nuevos datos y sus etiquetas, y la función find_neighbors utiliza el algoritmo KNN
+para encontrar los k vecinos más cercanos a una consulta.
+
+La función find_neighbors calcula la distancia euclidiana entre la consulta y cada uno de los datos almacenados utilizando una comprensión
+de lista y la función sqrt del módulo math. Los resultados se almacenan en una lista de tuplas, donde cada tupla contiene la distancia y la etiqueta correspondiente.
+Esta lista se ordena por distancia, y se devuelven las k etiquetas correspondientes a los vecinos más cercanos.
+
+Para utilizar esta clase, primero se crea una instancia de ella y se añaden los datos y etiquetas utilizando la función add_data. Luego,
+se llama a la función find_neighbors con los parámetros k y query para buscar los k vecinos más cercanos.
+
+Por ejemplo, para buscar los 3 vecinos más cercanos a una consulta con los valores [5.1, 3.5, 1.4, 0.2] utilizando los datos y etiquetas almacenados
+en la instancia nn, se podría llamar a la función de la siguiente manera:
+
+En este caso, se añaden cuatro instancias de datos, y se utiliza un valor de k de 3 para buscar los 3 vecinos más cercanos a la consulta.
+Los resultados se imprimen en la consola utilizando un bucle for.
