@@ -75,8 +75,8 @@ def n_neighbors_uri_audio_Name(genre, start_year, end_year, test_feat):
 st.set_page_config(page_title="Sistema para Recomendación de Musica", layout="wide")
 
 # Carga de Imagen
-image = Image.open('Imagenes/logo.JPG')
-st.image(image, caption='Logo UEES')
+#image = Image.open('Imagenes/logo.JPG')
+#st.image(image, caption='Logo UEES')
 
 title = "Algoritmo para Recomendación de Musica, Basado en: K-Nearest neighbors"
 st.title(title)
