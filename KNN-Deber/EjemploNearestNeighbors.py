@@ -1,5 +1,5 @@
-from sklearn.neighbors import NearestNeighbors
 import numpy as np
+from sklearn.neighbors import NearestNeighbors
 
 #Ejemplo tenemos un conjunto de datos con dos características
 #(la longitud y la altura de los pétalos de una flor)

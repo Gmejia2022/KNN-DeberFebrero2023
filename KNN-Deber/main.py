@@ -3,24 +3,20 @@
 
 # para Ejecutar en el Command Prompt: streamlit run main.py
 
-# Libreria Framework para Presentacion en Web - APP Server
-import streamlit as st
-
 # Libreria para el Calculo del tiempo Transcurrido en la Ejecucion
 import time
 
-# Libreria para Uso de Imagenes
-from PIL import Image
-
 # Librería para el manejo y análisis de estructuras de datos
 import pandas as pd
-
+# Libreria para visualizar gráficos de forma inmediata
+import plotly.express as px
+# Libreria Framework para Presentacion en Web - APP Server
+import streamlit as st
+# Libreria para Uso de Imagenes
+from PIL import Image
 # Librerias para hacer análisis predictivo, clasificadores, algoritmos de clusterización
 from sklearn.neighbors import NearestNeighbors
 
-# Libreria para visualizar gráficos de forma inmediata
-import plotly.express as px
-import streamlit.components.v1 as components
 
 # ========================================================================================================
 # Funciones del Programa

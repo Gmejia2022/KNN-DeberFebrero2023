@@ -4,8 +4,8 @@
 # Para hacer esto, utilizaremos K-NN para encontrar los k vecinos más cercanos
 #a la flor desconocida y predecir su clase en función de la clase mayoritaria de sus vecinos más cercanos
 
-from sklearn.neighbors import KNeighborsClassifier
 import numpy as np
+from sklearn.neighbors import KNeighborsClassifier
 
 # Generamos un conjunto de datos de ejemplo
 X = np.array([[1, 2], [1, 4], [1, 0], [4, 2], [4, 4], [4, 0]])

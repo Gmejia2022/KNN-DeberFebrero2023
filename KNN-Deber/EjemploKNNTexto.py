@@ -1,5 +1,5 @@
-from sklearn.neighbors import NearestNeighbors
 import pandas as pd
+from sklearn.neighbors import NearestNeighbors
 
 # Cargar los datos desde un archivo CSV
 data = pd.read_csv('DataSet/nombres.csv')
